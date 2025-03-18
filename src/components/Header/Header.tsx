@@ -3,7 +3,7 @@ import './style.scss'
 
 function header() {
   return (
-    <header className="header">header</header>
+    <header className="header">lolo</header>
   )
 }
 
