@@ -1,0 +1,58 @@
+.Team{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 12px;
+    .wrap{
+        max-width: 1736px ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 77px;
+        h1{
+            font-size: 40px;
+            font-weight: 400;
+            letter-spacing: -4%;
+            color: #000;
+            text-transform: uppercase;
+        }
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            .card{
+                max-width: 411px;
+                width: 100%;
+                border-radius: 12px;
+                overflow: hidden;
+                .photo{
+                    width: 100%;
+                    height: auto;
+                }
+                .bottom{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px #00A4D5 solid;
+                    .text{
+                        display: flex;
+                        gap: 10px;
+                        flex-direction: column;
+                        h2{
+                            font-size: 32px;
+                            letter-spacing: -4%;
+                            font-weight: 400;
+                            color: #000;
+                        }
+                        p{
+                            font-size: 20px;
+                            letter-spacing: -4%;
+                            font-weight: 400;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

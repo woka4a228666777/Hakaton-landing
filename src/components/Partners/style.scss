@@ -1,0 +1,24 @@
+.Partners{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 77px;
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: -4%;
+        color: #000;
+        text-transform: uppercase;
+    }
+    .stroka{
+        display: flex;
+        gap: 10px;
+        .Partner_item {
+            padding: 8px 17px;
+            width: 100% !important;
+            white-space: nowrap;
+            -webkit-backface-visibility: hidden; 
+          }
+    }
+}
