@@ -1,0 +1,90 @@
+
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 77px;
+    .zaglavie{
+        font-size: 40px;
+        font-weight: 400;
+        color: #000000;
+        width: 100%;
+        max-width: 1760px;
+        padding: 0px 12px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        max-width: 1760px;
+        padding: 0px 12px;
+        width: 100%;
+        min-height: 420px;
+        justify-content: center;
+
+        p{
+            max-width: 1406px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #000000;
+        }
+    }
+}
+.AboutBG{
+    width: 100%;
+    background: url(../../assets/img/AboutBg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 483px;
+    .content{
+        background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 1) 38%,
+        rgba(241, 241, 241, 0.86) 45%,
+        rgba(224, 224, 224, 0.69) 55%,
+        rgba(206, 206, 206, 0.52) 59%,
+        rgba(182, 182, 182, 0.28) 63%,
+        rgba(153, 153, 153, 0) 70%
+        );
+        height: 100%;
+        padding: 24px 12px;
+        min-height: 483px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text_button{
+            max-width: 1736px;
+            width: 100%;
+            .wrap{
+                width: fit-content;
+                display: flex;
+                flex-direction: column;
+                gap: 51px;
+                align-items: center;
+            }
+        }
+        .text{
+            max-width: 897px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                font-size: 64px;
+                font-weight: 400;
+                color: #00A4D5;
+                margin-bottom: 64px;
+            }
+            h2{
+                font-size: 48px;
+                font-weight: 400;
+                color: #00C3FF;
+                margin-bottom: 8px;
+            }
+            p{
+                font-size: 24px;
+                font-weight: 400;
+                color: #00C3FF;
+            }
+        }
+    }
+}

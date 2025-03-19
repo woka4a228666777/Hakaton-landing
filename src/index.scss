@@ -4,4 +4,27 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    background-repeat: no-repeat;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+html,
+body{
+    scroll-behavior: smooth !important;
+}
+
+section{
+    scroll-margin-top:  160px;
+}
+
+a,
+button{
+    cursor: pointer;
 }
