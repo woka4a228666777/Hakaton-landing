@@ -1,0 +1,155 @@
+.Events_block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 0px 12px;
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        max-width: 1777px;
+        width: 100%;
+        gap: 98px;
+        .first_block{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .texts{
+                display: flex;
+                flex-direction: column;
+                max-width: 886px;
+                width: 100%;
+                gap: 32px;
+                h2{
+                    font-size: 40px;
+                    font-weight: 400;
+                    color: #0091BE;
+                }
+                .text_first_block{
+                    max-width: 775px;
+                    width: 100%;
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #000;
+                }
+            }
+            .block_button{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                max-width: 863px;
+                height: 164px;
+                width: 100%;
+                border: 1px #0091BE solid;
+                border-radius: 25px;
+                padding: 50px 36px;
+                gap: 48px;
+                .icon_text{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 12px;
+                    h3{
+                        font-size: 32px;
+                        font-weight: 400;
+                        color: #000;
+                    }
+                    .icon{
+                        max-width: 63px;
+                        width: 100%;
+                    }
+                }
+                .first_block_button{
+                    max-width: 238px;
+                    height: 46px;
+                    width: 100%;
+                    background: rgba(255, 72, 0, 0.83);
+                    border: none;
+                    border-radius: 15px;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                    &:hover{
+                        background: #ffffff;
+                        color: rgba(255, 72, 0, 0.83);
+                        border: 1px rgba(255, 72, 0, 0.83) solid;
+                    }
+                    &:active{
+                        transform: scale(0.98);
+                    }
+                }
+            }
+        }
+        .second_block{
+            display: flex;
+            flex-direction: column;
+            gap: 43px;
+            
+            h1{
+                font-size: 48px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+            .cards{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 356px;
+                    align-items: center;
+                    width: 100%;
+                    border-radius: 12px;
+                    justify-content: space-between;
+                    border: 1px #0091BE solid;
+                    padding: 0px 0px 25px;
+                    .card_photo{
+                        max-width: 355px;
+                        width: 100%;
+                        border-radius: 12px 12px 0px 0px;
+                    }
+                    .card_text{
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 278px;
+                        width: 100%;
+                        gap: 16px;
+                        padding: 0px 0px 0px 19px;
+                        h4{
+                            font-size: 24px;
+                            font-weight: 400;
+                            color: #0091BE;
+                        }
+                        .text_card{
+                            font-size: 20px;
+                            font-weight: 400;
+                            color: #000;
+                        }
+                    }
+                    .card_button{
+                        max-width: 278px;
+                        width: 100%;
+                        background: rgba(255, 72, 0, 0.83);
+                        border: none;
+                        border-radius: 15px;
+                        color: #fff;
+                        font-size: 24px;
+                        font-weight: 400;
+                        padding: 12px 65px;
+                        &:hover{
+                            background: #ffffff;
+                            color: rgba(255, 72, 0, 0.83);
+                            border: 1px rgba(255, 72, 0, 0.83) solid;
+                        }
+                        &:active{
+                            transform: scale(0.98);
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
