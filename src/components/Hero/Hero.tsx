@@ -20,7 +20,7 @@ function Hero() {
                             благотворительности.
                         </p>
                     </div>
-                    <button>ПРИСОЕДИНЯЙСЯ</button>
+                    <a className='button' href="#donation"><button>ПРИСОЕДИНЯЙСЯ</button></a>
                 </div>
             </div>
         </div>

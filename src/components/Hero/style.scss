@@ -30,10 +30,13 @@
                 gap: 51px;
                 align-items: center;
             }
+            .button{
+                width: 100%;
+                max-width: 240px;
+            }
             button{
                 padding: 14px 14px;
                 width: 100%;
-                max-width: 240px;
                 font-size: 20px;
                 font-weight: 400;
                 color: #FFFFFF;

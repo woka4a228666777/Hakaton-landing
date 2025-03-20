@@ -1,0 +1,103 @@
+.Fond_news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    .wrap{
+        max-width: 1736px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        h1{
+            text-transform: uppercase;
+            font-size: 48px;
+            font-weight: 400;
+        }
+        .row{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 24px;
+            @media (max-width: 1000px) {
+                flex-direction: column;
+                align-items: center;
+            }
+            .text_left{
+                display: flex;
+                flex-direction: column;
+                gap: 28px;
+                h2{
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: -4%;
+                    color: #0091BE;
+                    max-width: 909px;
+                }
+                p{
+                    font-size: 24px;
+                    font-weight: 400;
+                    letter-spacing: -4%;
+                    color: #000000;
+                    max-width: 833px;
+                }
+            }
+            .card{
+                max-width: 356px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                min-height: 458px;
+                border: 1px #0091BE solid;
+                border-radius: 12px;
+                .photo{
+                    display: flex;
+                    width: 100%;
+                    border-radius: 12px 12px 0px 0px;
+                }
+                .info_block{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 19px 11px 21px 14px;
+                    justify-content: space-between;
+                    height: 100%;
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 19px;
+                        width: 100%;
+                        h2{
+                            font-size: 32px;
+                            font-weight: 400;
+                            letter-spacing: -4%;
+                            color: #0091BE;
+                        }
+                        p{
+                            color: #000000;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                        .bottom{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .percentage{
+                                width: 75px;
+                                height: 75px;
+                                border: 9px #00C3FF solid;
+                                border-radius: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: #000000;
+                                font-size: 20px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

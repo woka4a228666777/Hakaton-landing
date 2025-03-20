@@ -8,14 +8,14 @@ function header() {
       <div className="wrap">
         <div className="top">
           <a className='a_logo' href="/"><img className='logo' src={Logo} alt="logo" /></a>
-          <button>помочь детям</button>
+          <a className='button' href="#donation"><button>помочь детям</button></a>
         </div>
         <nav>
           <ul>
             <li><a href="#hero">ГЛАВНАЯ</a></li>
             <li><a href="#about">О ФОНДЕ</a></li>
-            <li><a href="#">МИССИЯ</a></li>
-            <li><a href="#">НАШИ ПРОГРАММЫ</a></li>
+            <li><a href="#proj">ПРОЕКТЫ</a></li>
+            <li><a href="#news">НОВОСТИ</a></li>
             <li><a href="#">КОМУ ПОМОЧЬ</a></li>
             <li><a href="#">ПОМОГАЕМ ВМЕСТЕ</a></li>
           </ul>

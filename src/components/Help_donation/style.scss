@@ -1,0 +1,148 @@
+.Help_donation_section{
+    width: 100%;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: center;
+}
+.Help_donation{
+    max-width: 1736px;
+    width: 100%;
+    border: 6px #00A4D5 solid;
+    background: rgb(0, 164, 213, 0.05);
+    border-radius: 50px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 48px 24px;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.amounts-container {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #0091BE;
+    overflow: hidden;
+    max-width: 973px;
+    width: 100%;
+}
+
+.button{
+    cursor: pointer;
+    border: none;
+    border: 1px solid #0091BE00;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 12px;
+    transition: 0.15s ease;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0px;
+    gap: 24px;
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.amount {
+    background: #FFFFFF;
+    border-right: 1px solid #0091BE;
+    &:nth-last-child(1){
+        border-right: none;
+    }
+}
+
+.selected {
+    background: #0091BE;
+    color: #FFFFFF;
+}
+
+.toggle-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 34px;
+    label{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        input[type=radio] {
+            display: none;
+        }
+    }
+}
+
+.one-time {
+    color: #0091BE;
+}
+
+.monthly {
+    color: rgb(255, 72, 0, 0.83);
+}
+
+.buttons-container {
+    display: flex;
+    gap: 24px;
+}
+
+.other-amount {
+    background: transparent;
+    border: 2px solid rgb(0, 164, 213);
+    color: hwb(194 0% 16%);
+    padding: 18px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.15s ease;
+    text-wrap: nowrap;
+    &:hover{
+        background: rgb(0, 164, 213, 0.1);
+        color: rgb(0, 164, 213);
+        border: 2px rgb(0, 164, 213) solid;
+    }
+    &:active{
+        transform: scale(0.98);
+    }
+}
+
+.help-button {
+    background: rgb(255, 72, 0, 0.83);
+    color: #FFFFFF;
+    padding: 18px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.15s ease;
+    border: 1px rgba(255, 72, 0, 0) solid;
+    text-wrap: nowrap;
+    &:hover{
+        background: #ffffff;
+        color: rgba(255, 72, 0, 0.83);
+        border: 1px rgba(255, 72, 0, 0.83) solid;
+    }
+    &:active{
+        transform: scale(0.98);
+    }
+}

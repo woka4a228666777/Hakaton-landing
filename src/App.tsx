@@ -5,6 +5,8 @@ import About from './components/About/About'
 import Team from './components/Team/Team'
 import Partners from './components/Partners/Partners'
 import Project_block from './components/Project_block/Project_block'
+import Help_donation from './components/Help_donation/Help_donation'
+import Fond_news from './components/Fond_news/Fond_news'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Team/>
         <Partners/>
         <Project_block/>
+        <Help_donation/>
+        <Fond_news/>
       </main>
     </>
   )
