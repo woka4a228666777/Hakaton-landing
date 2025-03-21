@@ -15,6 +15,10 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            gap: 20px;
+            @media (max-width: 1000px) {
+                flex-direction: column;
+            }
             .texts{
                 display: flex;
                 flex-direction: column;
@@ -70,6 +74,8 @@
                     color: #fff;
                     font-size: 20px;
                     font-weight: 400;
+                    transition: 0.15s ease;
+                    border: 1px rgba(255, 72, 0, 0) solid;
                     &:hover{
                         background: #ffffff;
                         color: rgba(255, 72, 0, 0.83);
@@ -90,11 +96,24 @@
                 font-size: 48px;
                 font-weight: 400;
                 text-transform: uppercase;
+                @media (max-width:1000px) {
+                    font-size: 32px;
+                    width: 100%;
+                    text-align: center;
+                }
+                @media (max-width:555px) {
+                    font-size: 28px;
+                }
             }
             .cards{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                gap: 20px;
+                @media (max-width: 1000px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
                 .card{
                     display: flex;
                     flex-direction: column;
@@ -138,6 +157,8 @@
                         font-size: 24px;
                         font-weight: 400;
                         padding: 12px 65px;
+                        transition: 0.15s ease;
+                        border: 1px rgba(255, 72, 0, 0) solid;
                         &:hover{
                             background: #ffffff;
                             color: rgba(255, 72, 0, 0.83);
@@ -146,7 +167,6 @@
                         &:active{
                             transform: scale(0.98);
                         }
-                        
                     }
                 }
             }

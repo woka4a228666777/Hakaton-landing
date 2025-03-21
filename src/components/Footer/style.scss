@@ -12,9 +12,16 @@
         justify-content: space-between;
         max-width: 1752px;
         width: 100%;
+        @media (max-width:1000px) {
+            flex-direction: column;
+        }
         .logo_block{
             max-width: 742px;
             width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+            }
         }
         .footer_content{
             display: flex;
@@ -22,11 +29,17 @@
             max-width: 900px;
             gap: 60px;
             width: 100%;
+            @media (max-width:1000px) {
+                align-items: center;
+            }
             .content_up{
                 display: flex;
                 flex-direction: row;
-                gap: 187px;
-                padding: 60px 0px 60px 0px;
+                gap: 20px;
+                justify-content: space-between;
+                max-width: 500px;
+                width: 100%;
+                padding: 60px 12px 60px 12px;
                 border-top: 1px #54D7FF solid;
                 border-bottom: 1px #54D7FF solid;
                 .Footer_text{
@@ -48,9 +61,13 @@
                 .services{
                     max-width: 833px;
                     width: 100%;
-                    gap: 65px;
+                    height: auto;
+                    gap: 55px;
                     display: flex;
                     justify-content: center;
+                    flex-wrap: wrap;
+                    img{
+                    }
                 }
                 .connect{
                     display: flex;

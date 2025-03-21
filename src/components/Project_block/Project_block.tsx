@@ -1,4 +1,3 @@
-import React from 'react'
 import './style.scss'
 import Project1 from '../../assets/img/Project1.png'
 import Project2 from '../../assets/img/Project2.png'

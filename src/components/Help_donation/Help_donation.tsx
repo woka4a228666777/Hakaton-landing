@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './style.scss';
 import Radio from '../../assets/img/Radio.svg'
 import RadioActive from '../../assets/img/RadioActive.svg'

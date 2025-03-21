@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './style.scss'
 import Marquee from "react-fast-marquee"
 import Partner1 from '../../assets/img/Partner1.svg'

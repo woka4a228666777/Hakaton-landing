@@ -70,6 +70,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                @media (max-width:555px) {
+                    display: none;
+                }
                 a{
                     font-size: 16px;
                     font-weight: 400;

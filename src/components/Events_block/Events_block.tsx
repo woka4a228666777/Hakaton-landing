@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './style.scss'
 import Logo from '../../assets/img/Icon_logo.svg'
 import Events_photo1 from '../../assets/img/Events1.png'

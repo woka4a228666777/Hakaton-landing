@@ -1,4 +1,3 @@
-import React from 'react'
 import './style.scss'
 import Logo from '../../assets/logo/logo.svg'
 import iOS from '../../assets/img/iOS.svg'

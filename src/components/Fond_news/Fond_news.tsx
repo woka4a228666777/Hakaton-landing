@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './style.scss'
 import newsPhoto1 from '../../assets/img/newsPhoto1.png'
 import newsPhoto2 from '../../assets/img/newsPhoto2.png'

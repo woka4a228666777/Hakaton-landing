@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './style.scss'
 import Logo from '../../assets/logo/logo.svg'
 
@@ -16,8 +16,8 @@ function header() {
             <li><a href="#about">О ФОНДЕ</a></li>
             <li><a href="#proj">ПРОЕКТЫ</a></li>
             <li><a href="#news">НОВОСТИ</a></li>
-            <li><a href="#">КОМУ ПОМОЧЬ</a></li>
-            <li><a href="#">ПОМОГАЕМ ВМЕСТЕ</a></li>
+            <li><a href="#events_block">КОМУ ПОМОЧЬ</a></li>
+            <li><a href="#donation">ПОМОГАЕМ ВМЕСТЕ</a></li>
           </ul>
         </nav>
       </div>
