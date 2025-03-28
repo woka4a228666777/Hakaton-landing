@@ -1,3 +1,5 @@
+# Задание сделанное на Хакатоне от колледжа, на него было дано 3 дня
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
